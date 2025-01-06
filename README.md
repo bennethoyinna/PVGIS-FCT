@@ -8,8 +8,8 @@ See included Jupyter Notebook (`PVGIS.irradiance.ipynb`) for step by step breakd
 
 
 ## **Modelling Parameters:**
-- latitude: Latitude of the site (Default: 54.60452)
-- longitude: Longitude of the site (Default: -5.92860)
+- latitude: Latitude of the site (Default: 9)
+- longitude: Longitude of the site (Default: 7.5)
 - surface_pitch: Pitch of the modelled plane in degrees (Default: 35)
 - surface_azimuth: Azimuth of the modelled plane in degrees (Default: 0)
 - albedo: Albedo of the modelled plane (Default: 0.2)
@@ -47,8 +47,8 @@ The model is created by initializing a Site class object when the program is run
 ```python
 from meteo.Site import Site
 
-latitude = 54.60452
-longitude = -5.92860
+latitude = 9
+longitude = 7.5
 surface_pitch = 35
 surface_azimuth = 0
 albedo = 0.2
